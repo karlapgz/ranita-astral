@@ -8,13 +8,17 @@ body {
     background-color: #28DF99;
 }
 
+.content{
+    text-align: center;
+}
+
 h1 {
     color: #1B262C;
     font-family: 'Source Code Pro', monospace;
     font-weight: bold;
-    font-size: 2.5rem;
+    font-size: calc( 20px + 1.8vw);
     letter-spacing: 5px;
-    margin-bottom: 2rem;
+    margin: 2rem 0;
     background-color: #9B45E4;
 }
 
@@ -23,25 +27,10 @@ h1 {
     font-size: 1.2rem;
     width: 80%;
     margin: auto;
-
 }
 
 span {
     font-weight: bold;
     letter-spacing: 4px;
     margin-left: 0.5rem;
-}
-
-main {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    text-align: center;
-}
-
-@media screen and (max-width: 360px) {
-    h1 {
-        font-size: 2rem;
-    }
 }
